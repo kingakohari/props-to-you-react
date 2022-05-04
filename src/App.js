@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Counter from './components/Counter'
 import IntroductionCard from './components/IntroductionCard';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
         eyeColor={students[1].eyeColor}
         height={students[1].height}
       />
+      <Counter />
       <Footer date={date} />
       
     </div>
