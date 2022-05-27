@@ -9,7 +9,7 @@ function App() {
 
   const date = new Date()
 
-  const logoName = "My Logo"
+  const logoName = "IT Freaks"
 
   const students = [
     {
